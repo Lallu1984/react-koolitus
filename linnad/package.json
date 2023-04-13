@@ -2,7 +2,7 @@
   "name": "linnad",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://Lallu1984.github.io/linnad",
+  "homepage":"http://lallu1984.github.io/linnad",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
