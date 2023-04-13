@@ -5,7 +5,7 @@ const nimed = [
     'Mõmmi'
 ]
 
-console.log(nimed[0])
+/*console.log(nimed[0])
 
 const tervitus = (nimi) => {
     console.log("Tere " + nimi)
@@ -34,4 +34,15 @@ console.log(nimed)
 
 const tervitused = nimed.map(tagastaTervitus)
 console.log(tervitused)
+*/
+
+
+const jsxNimed = nimed.map((nimi, index) => {
+    return "<h1>" + index + '. ' + nimi + "</h1>"
+})
+
+console.log("Sisiend")
+console.log(nimed)
+console.log("Väljund")
+console.log(jsxNimed)
 
