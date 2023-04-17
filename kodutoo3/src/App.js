@@ -56,7 +56,7 @@ function App()  {
  return (
  <div className="kontainer">
     <header className="App-header">
-      <h1>EUROOPA PEALINNAD</h1>
+      <h1>VÄÄRT PEALINNAD JA RAAMATUD</h1>
     </header>
     <div className='cards'>
       {linnad.map((linn, index) => {
