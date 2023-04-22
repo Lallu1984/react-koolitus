@@ -1,94 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.card.bg-dark.text-white,
-.over-menu.active {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-}
-
-.card.bg-dark.text-white {
-  height: 20%;
-  border-radius: 10px;
-  font-size: x-large;
-  box-shadow: darkgrey 4px 4px;
-}
-
-header {
-  height: 200px;
-  display: flex;
-  text-align: center;
-  font-size: xx-large;
-  justify-content: center;
-  background-color: aquamarine;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-.main {
+.terms-container {
     display: flex;
     flex-direction: row;
-    border: solid;
-    border-radius: 10px;
-    box-shadow: darkgray 4px 4px;
-}
-
-.nupud {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    width: 80%;
     height: 450px;
 }
 
-.info {
-  display: flex;
+.buttons-container {
+    width: 80%;
+    height: 450px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.buttons-container-button {
+    width: 20%;
+    margin-left: 60px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+} 
+
+.buttons {
+    width: 40%;
+    border-right: solid;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
     flex-direction: row;
     width: 60%;
 }
 
-.card.bg-dark.text-white {
-  background-color: rgb(0, 255, 60);
-  color: #000000;
-  cursor: pointer;
-  display: block;
+.content-img {
+    margin: 10px;
 }
 
-.over-menu.active {
-  display: flex;
-  flex-direction: row;
-  background-color: #ccc;
-  color: inherit;
-  display: none;
-  height: 450px;
-}
-
-img {
-  height: 449px;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.book-content {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.book-info {
-  display: flex;
-  flex-direction: column;
-  height: 448px;
-  width: 100%;
-  padding: 20px;
-}
-
-.over-menu.active.selected {
-  border: #0a0 solid 5px;
-  display: block;
-  display: flex;
-  flex-direction: row;
-  height: 450px;
-  width: 100%;
+.content-text {
+    margin: 15px;
 }

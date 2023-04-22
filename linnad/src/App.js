@@ -29,10 +29,15 @@ function App() {
   }
 
   const linnad = [linn1, linn2, linn3]
+
+  const lisaLinn = () => {
+    console.log("Lisame linna!")
+  }
   
 
   return (
     <div className="kontainer">
+      <button onClick={lisaLinn}>Lisa linn</button>
       {linnad.map((linn, index) => {
         return (
        <Linn 
